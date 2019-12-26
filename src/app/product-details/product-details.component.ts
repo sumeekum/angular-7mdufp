@@ -10,7 +10,7 @@ import { products } from '../products';
 })
 export class ProductDetailsComponent implements OnInit {
 
-  constructor() { }
+  constructor( private route: ActivatedRoute,) { }
 
   ngOnInit() {
   }
